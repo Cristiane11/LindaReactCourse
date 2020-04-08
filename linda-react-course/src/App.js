@@ -1,22 +1,21 @@
 import React from 'react';
 import SkiDayCounter from './SkiDayCounter';
+import SkiData from './SkiData';
 import './App.css';
 
-function App(props) {
+function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
         <p>
           <SkiDayCounter
-          total={this.skiData.total}
-          powder={this.skiData.powder}
-          backcountry={this.skiData.backcountry}
-          goal={this.skiData.goal}
+          total={skiData.total}
+          powder={skiData.powder}
+          backcountry={skiData.backcountry}
+          goal={skiData.goal}
           />
         </p>
        
-      </header>
+      
     </div>
   );
 }
