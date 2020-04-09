@@ -5,11 +5,12 @@ import './App.css';
 
 class  App extends React.Component {
  render(){
-  const skiData = this.props.SkiData
+  const {skiData} = this.props
   return (
     <div className="App">
         {skiData.map((item,index)=>
           <SkiDayCounter
+         
           total={skiData.total}
           powder={skiData.powder}
           backcountry={skiData.backcountry}
