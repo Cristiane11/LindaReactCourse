@@ -3,21 +3,23 @@ import SkiDayCounter from './SkiDayCounter';
 import SkiData from './SkiData';
 import './App.css';
 
-function App() {
+class  App extends React.Component {
+ render(){
+  const skiData = this.props.SkiData
   return (
     <div className="App">
-        <p>
+        {skiData.map((item,index)=>
           <SkiDayCounter
           total={skiData.total}
           powder={skiData.powder}
           backcountry={skiData.backcountry}
           goal={skiData.goal}
           />
-        </p>
-       
+
+    )}
       
-    </div>
+      </div>
   );
 }
-
+}
 export default App;
