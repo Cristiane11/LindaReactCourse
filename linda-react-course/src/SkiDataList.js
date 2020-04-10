@@ -1,11 +1,12 @@
 import React from "./react";
 import SkiDayCounter from './SkiDayCounter';
+import {SkiData} from './SkiData';
 
 const SkiDayList =({SkiData})=>{
     return(
                 <div>
                     {
-                        skiData.map((item,index)=>{
+                        SkiData.map((item,index)=>{
                         return(
                             <SkiDayCounter
                             key={SkiData[i]}
