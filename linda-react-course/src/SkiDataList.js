@@ -1,8 +1,11 @@
 import React from "./react";
 import SkiDayCounter from './SkiDayCounter';
-import {SkiData} from './SkiData';
+
+
+const SkiData = this.SkiData;
 
 const SkiDayList =({SkiData})=>{
+    
     return(
                 <div>
                     {

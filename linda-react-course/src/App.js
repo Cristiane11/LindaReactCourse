@@ -1,6 +1,6 @@
 import React from 'react';
 import SkiDayCounter from './SkiDayCounter';
-import SkiData from './SkiData';
+import {SkiData} from './SkiData';
 import SkiDataList from './SkiDataList';
 import './App.css';
 
@@ -13,16 +13,13 @@ const calcGoalProgress = (total,goal)=>{
 
 class  App extends React.Component {
  render(){
-<<<<<<< HEAD
-  const skiData = this.props.SkiData
-=======
->>>>>>> 7f1ef282ba9a37d249aa1efb1eb4c27a711c65bb
-  return (
+
+
+return (
     <div className="App">
         
           <SkiDataList/>
-         
-
+        
     )}
       
       </div>
