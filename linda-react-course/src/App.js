@@ -5,7 +5,7 @@ import './App.css';
 
 class  App extends React.Component {
  render(){
-  const {skiData} = this.props
+  const skiData = this.props.SkiData
   return (
     <div className="App">
         {skiData.map((item,index)=>
