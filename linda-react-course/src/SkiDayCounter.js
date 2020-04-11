@@ -1,12 +1,6 @@
 import React from 'react';
-import {render}from 'react-dom'
-
-let SkiData ={
-  total:50,
-  powder:20,
-  backcountry:10,
-  goal:100  
-}
+import {render}from 'react-dom';
+import SkiData from './SkiData';
 
 const getPercent =decimal=>{
     return decimal * 100 + '%'
@@ -15,6 +9,9 @@ const calcGoalProgress = (total,goal)=>{
     return getPercent(total/goal)
 }
 const SkiDayCounter =({total,powder,backcountry,goal})=>{
+    
+    
+    
     return(
         <section>
         <div>
