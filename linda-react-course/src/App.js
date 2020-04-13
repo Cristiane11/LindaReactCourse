@@ -1,7 +1,7 @@
 import React from 'react';
-import SkiDayCounter from './SkiDayCounter';
-import {SkiData} from './SkiData';
-import SkiDataList from './SkiDataList';
+//import SkiDayCounter from './SkiDayCounter';
+//import {SkiData} from './SkiData';
+//import SkiDataList from './SkiDataList';
 import './App.css';
 
 const getPercent =decimal=>{
@@ -14,13 +14,12 @@ const calcGoalProgress = (total,goal)=>{
 class  App extends React.Component {
  render(){
 
+//const {SkiData} = this.props
 
 return (
     <div className="App">
         
-          <SkiDataList/>
-        
-    )}
+          
       
       </div>
   );

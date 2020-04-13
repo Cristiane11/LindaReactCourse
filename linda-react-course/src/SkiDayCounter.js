@@ -1,6 +1,6 @@
-import React from 'react';
-import {render}from 'react-dom';
-import {SkiData} from './SkiData';
+//import React from 'react';
+//import {render}from 'react-dom';
+//import {SkiData} from './SkiData';
 
 
 const getPercent =decimal=>{
